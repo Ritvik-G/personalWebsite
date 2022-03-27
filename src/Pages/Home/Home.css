@@ -1,0 +1,524 @@
+*{
+    background-color: #000916;
+}
+
+.portfolio {
+    margin: 25px auto;
+    width: 1500px;
+    position: relative;
+    border-radius: 36px;
+    height: 916px;
+    display: grid;
+    background: #000916;
+}
+.portfolio-image{
+    height: 916px;
+    width: 750px;
+    border-radius: 36px;
+    margin-left: 0px;
+}
+.portfolio h1{
+    margin-left: 950px;
+    color: #FFF;
+    font-size: 91.6px;
+    margin-top: -750px;
+}
+.portfolio h2{
+    margin-left: 950px;
+    color: #FFF;
+    font-size: 45.8px;
+    margin-top: -600px;
+}
+.portfolio h3{
+    margin-left: 1095px;
+    color: #808080;
+    font-size: 30px;
+    margin-top: -400px;
+}
+.portfolio h3:hover{
+    color: #FFF;
+    transition: all 0.2s ease-out;
+}
+.portfolio-link{
+    text-decoration: none;
+}
+
+
+
+.courses {
+    margin: 25px auto;
+    width: 1500px;
+    position: relative;
+    border-radius: 36px;
+    height: 916px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.courses-image{
+    height: 916px;
+    width: 916px;
+    border-radius: 36px;
+    background-color: #FFF;
+}
+.course-box{
+    background-color: #FFF;
+    text-decoration: none;
+}
+.courses h1{
+    margin-left: 50px;
+    color: #000916;
+    font-size: 91.6px;
+    margin-top: 50px;
+    background-color: #FFF;
+    padding-bottom: 5rem;
+}
+.courses h2{
+    margin-left: 50px;
+    color: #000916;
+    font-size: 45.8px;
+    margin-top: 50px;
+    background-color: #FFF;
+}
+.courses h3{
+    margin-left: 150px;
+    color: #808080;
+    font-size: 30px;
+    margin-top: 150px;
+    background-color: #FFF;
+}
+.courses h3:hover{
+    color: #000916;
+    transition: all 0.2s ease-out;
+}
+.courses-link{
+    text-decoration: none;
+}
+
+.projects {
+    margin: 25px auto;
+    width: 1500px;
+    position: relative;
+    border-radius: 36px;
+    height: 916px;
+    display: grid;
+    background: #000916;
+}
+.projects-image{
+    height: 916px;
+    width: 916px;
+    border-radius: 36px;
+}
+.projects h1{
+    margin-left: 950px;
+    color: #FFF;
+    font-size: 91.6px;
+    margin-top: -750px;
+}
+.projects h2{
+    margin-left: 950px;
+    color: #FFF;
+    font-size: 45.8px;
+    margin-top: -600px;
+}
+.projects h3{
+    margin-left: 1095px;
+    color: #808080;
+    font-size: 30px;
+    margin-top: -400px;
+}
+.projects h3:hover{
+    color: #FFF;
+    transition: all 0.2s ease-out;
+}
+.projects-link{
+    text-decoration: none;
+}
+
+
+
+.articles {
+    margin: 25px auto;
+    width: 1500px;
+    position: relative;
+    border-radius: 36px;
+    height: 916px;
+    display: grid;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+.articles-image{
+    height: 916px;
+    width: 916px;
+    border-radius: 36px;
+    background-color: #FFF;
+}
+.articles-box{
+    background-color: #FFF;
+    text-decoration: none;
+}
+.articles h1{
+    margin-left: 50px;
+    color: #000916;
+    font-size: 91.6px;
+    margin-top: 50px;
+    background-color: #FFF;
+    padding-bottom: 5rem;
+}
+.articles h2{
+    margin-left: 50px;
+    color: #000916;
+    font-size: 45.8px;
+    margin-top: 50px;
+    background-color: #FFF;
+}
+.articles h3{
+    margin-left: 150px;
+    color: #808080;
+    font-size: 30px;
+    margin-top: 150px;
+    background-color: #FFF;
+}
+.articles h3:hover{
+    color: #000916;
+    transition: all 0.2s ease-out;
+}
+.articles-link{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1525px) {
+    .articles{
+        width: 1000px;
+    }
+    .articles-image{
+        height: 500px;
+        width: 400px;
+    }
+    .articles h1{
+        font-size: 60px;
+    }
+    .articles h2{
+        font-size: 30px;
+    }
+    .articles h3{
+        font-size: 20px;
+    }
+
+    .projects{
+        width: 1000px;
+    }
+    .projects-image{
+        height: 500px;
+        width: 400px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 208px;
+    }
+    .projects h1{
+        margin-left: 560px;
+        font-size: 60px;
+        margin-top: -500px;
+    }
+    .projects h2{
+        margin-left: 560px;
+        color: #FFF;
+        font-size: 30px;
+        margin-top: -450px;
+    }
+    .projects h3{
+        margin-left: 650px;
+        color: #808080;
+        font-size: 20px;
+        margin-top: -350px;
+    }
+    .projects h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .projects-link{
+        text-decoration: none;
+    }
+
+    .courses{
+        width: 1000px;
+    }
+    .courses-image{
+        height: 500px;
+        width: 400px;
+    }
+    .courses h1{
+        font-size: 60px;
+    }
+    .courses h2{
+        font-size: 30px;
+    }
+    .courses h3{
+        font-size: 20px;
+    }
+
+    .portfolio{
+        width: 1000px;
+    }
+    .portfolio-image{
+        height: 500px;
+        width: 400px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 208px;
+    }
+    .portfolio h1{
+        margin-left: 560px;
+        font-size: 60px;
+        margin-top: -500px;
+    }
+    .portfolio h2{
+        margin-left: 560px;
+        color: #FFF;
+        font-size: 30px;
+        margin-top: -450px;
+    }
+    .portfolio h3{
+        margin-left: 650px;
+        color: #808080;
+        font-size: 20px;
+        margin-top: -350px;
+    }
+    .portfolio h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .portfolio-link{
+        text-decoration: none;
+    }
+  }
+
+@media screen and (max-width: 1025px) {
+    .articles{
+        width: 750px;
+    }
+    .articles-image{
+        height: 375px;
+        width: 300px;
+    }
+    .articles h1{
+        font-size: 46px;
+    }
+    .articles h2{
+        font-size: 23px;
+    }
+    .articles h3{
+        font-size: 15px;
+    }
+
+    .projects{
+        width: 750px;
+    }
+    .projects-image{
+        height: 375px;
+        width: 300px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 208px;
+    }
+    .projects h1{
+        margin-left: 400px;
+        font-size: 46px;
+        margin-top: -440px;
+    }
+    .projects h2{
+        margin-left: 400px;
+        font-size: 23px;
+        margin-top: -430px;
+    }
+    .projects h3{
+        margin-left: 475px;
+        color: #808080;
+        font-size: 15px;
+        margin-top: -400px;
+    }
+    .projects h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .projects-link{
+        text-decoration: none;
+    }
+
+
+    .courses{
+        width: 750px;
+    }
+    .courses-image{
+        height: 375px;
+        width: 300px;
+    }
+    .courses h1{
+        font-size: 46px;
+    }
+    .courses h2{
+        font-size: 23px;
+    }
+    .courses h3{
+        font-size: 15px;
+    }
+
+
+    .portfolio{
+        width: 750px;
+    }
+    .portfolio-image{
+        height: 375px;
+        width: 300px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 208px;
+    }
+    .portfolio h1{
+        margin-left: 400px;
+        font-size: 46px;
+        margin-top: -440px;
+    }
+    .portfolio h2{
+        margin-left: 400px;
+        font-size: 23px;
+        margin-top: -430px;
+    }
+    .portfolio h3{
+        margin-left: 475px;
+        color: #808080;
+        font-size: 15px;
+        margin-top: -400px;
+    }
+    .portfolio h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .portfolio-link{
+        text-decoration: none;
+    }
+  }
+
+@media screen and (max-width: 775px) {
+    .articles{
+        width: 450px;
+        height: 600px;
+    }
+    .articles-image{
+        height: 250px;
+        width: 200px;
+        border-radius: 36px;
+        margin-left: 0px;
+    }
+    .articles h1{
+        font-size: 30px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+    .articles h2{
+        font-size: 15px;
+    }
+    .articles h3{
+        font-size: 12px;
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+
+    .projects{
+        width: 450px;
+        height: 600px;
+    }
+    .projects-image{
+        height: 250px;
+        width: 200px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 175px;
+    }
+    .projects h1{
+        margin-left: 250px;
+        font-size: 30px;
+        margin-top: -260px;
+    }
+    .projects h2{
+        margin-left: 250px;
+        font-size: 15px;
+        margin-top: -250px;
+    }
+    .projects h3{
+        margin-left: 290px;
+        color: #808080;
+        font-size: 12px;
+        margin-top: -220px;
+    }
+    .projects h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .projects-link{
+        text-decoration: none;
+    }
+
+
+    .courses{
+        width: 450px;
+        height: 600px;
+    }
+    .courses-image{
+        height: 250px;
+        width: 200px;
+        border-radius: 36px;
+        margin-left: 0px;
+    }
+    .courses h1{
+        font-size: 30px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+    .courses h2{
+        font-size: 15px;
+    }
+    .courses h3{
+        font-size: 12px;
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+
+
+    .portfolio{
+        width: 450px;
+        height: 600px;
+    }
+    .portfolio-image{
+        height: 250px;
+        width: 200px;
+        border-radius: 36px;
+        margin-left: 0px;
+        margin-top: 175px;
+    }
+    .portfolio h1{
+        margin-left: 250px;
+        font-size: 30px;
+        margin-top: -260px;
+    }
+    .portfolio h2{
+        margin-left: 250px;
+        font-size: 15px;
+        margin-top: -250px;
+    }
+    .portfolio h3{
+        margin-left: 290px;
+        color: #808080;
+        font-size: 12px;
+        margin-top: -220px;
+    }
+    .portfolio h3:hover{
+        color: #FFF;
+        transition: all 0.2s ease-out;
+    }
+    .portfolio-link{
+        text-decoration: none;
+    }
+  }
