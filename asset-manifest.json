@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.64f5ad95.css",
+    "main.js": "/personalwebsite/static/js/main.2eb2cfbf.js",
+    "static/media/download.ico": "/personalwebsite/static/media/download.051213adc77aebd1be6b.ico",
+    "static/media/Projects.png": "/personalwebsite/static/media/Projects.c03025f59cc8ef2205d7.png",
+    "static/media/profile.jpeg": "/personalwebsite/static/media/profile.190129b8185ea736f720.jpeg",
+    "static/media/Articles.png": "/personalwebsite/static/media/Articles.4400d70650a664ed0a78.png",
+    "static/media/Courses.png": "/personalwebsite/static/media/Courses.39f069d34ac570b4ed45.png",
+    "index.html": "/personalwebsite/index.html",
+    "main.64f5ad95.css.map": "/personalwebsite/static/css/main.64f5ad95.css.map",
+    "main.2eb2cfbf.js.map": "/personalwebsite/static/js/main.2eb2cfbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f5ad95.css",
+    "static/js/main.2eb2cfbf.js"
+  ]
+}
